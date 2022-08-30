@@ -1,0 +1,16 @@
+*********************** 校验结果 **************************
+2022-08-25_Thu_11-26-30  总数: 12, 成功: 11, 失败: 1
+VSEAECH_01  创建接入配置   True  校验规则通过
+VSEAECH_02  查询接入配置   True  校验规则通过
+VSEAECH_03  修改接入配置   True  校验规则通过
+VSEAECH_04  删除接入配置   True  校验规则通过
+VSEAECH_08  索引查询配置查询   True  校验规则通过
+VSEAECH_09  索引返回配置查询   True  校验规则通过
+VSEAECH_10  排序配置查询   True  校验规则通过
+VSEAECH_11  索引单知识搜索   False   校验HTTP状态码失败 , 返回状态码: 500, 校验值: 200
+VSEAECH_12  vsearchProxy层搜索   True  校验规则通过
+VSEAECH_13  联想词搜索   True  校验规则通过
+VSEAECH_14  vsearchProxy层数据确认   True  校验规则通过
+VSEAECH_16  用户反馈查询   True  校验规则通过
+
+

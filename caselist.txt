@@ -1,0 +1,10 @@
+#登录新增商品、搜索商品、下架商品、删除商品流程
+#test_add_product
+#test_search_product
+#test_soldout_product
+#test_delete_product
+#test_process1
+#test_process2
+#test_member_center
+#test_myEnergy
+test_recordList
