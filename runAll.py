@@ -55,7 +55,7 @@ class AllTest:
                 report_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "report", "report.html"))
                 print(report_path)
                 fp = open(report_path, 'wb')
-                runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='Interface Test Report', description='试驾伴侣测试环境单元测试')
+                runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title='Interface Test Report', description='webmall商城')
                 runner.run(suit) # 套件，为测试用例的有序集合
                 fp.close()
             else:

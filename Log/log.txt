@@ -108,3 +108,127 @@
 [2022-08-26 17:30:45,766][request.py][line: 125][INFO] response.status_code：200
 [2022-08-26 17:30:45,767][request.py][line: 153][INFO] http://10.31.7.6:30734/client/v1/record/detail: 返回结果：{'code': 0, 'message': '成功', 'data': {'tenantId': '120027', 'id': '1563054601296388098', 'employeeId': '144115205301804106', 'employeeName': '周亮', 'dealerId': '3', 'dealerName': '楚河汉街店', 'type': 2, 'driverId': '1485449363279093760', 'driverName': '周亮', 'brandCode': '1005', 'brandName': '奥迪', 'modelCode': '100501', 'modelName': '奥迪A4L', 'vin': 'AUDI022052650201', 'plateNumber': '鄂A519G6', 'customerPhone': '15623865453', 'customerName': '周亮', 'gender': 1, 'customerLicenseUrl': 'https://kefuzhihua-test-drive-1300902972.cos.ap-nanjing.myqcloud.com/uat/driver_mini/caf750ca-7faf-494a-861d-888819dc55c6.jpg?sign=q-sign-algorithm%3Dsha1%26q-ak%3DAKIDoUyGNFtISQAh04tUqyrKZaNvIRM2bv0r%26q-sign-time%3D1661506243%3B1661508043%26q-key-time%3D1661506243%3B1661508043%26q-header-list%3Dhost%26q-url-param-list%3D%26q-signature%3De098c4204b4deabd0d42fff3ca381304ede08cf6', 'licenseType': 'C1', 'licenseNumber': '420111199203260536', 'drivingExperience': 9, 'appointId': '1563054317102931969', 'opportunityId': None, 'contractType': 2, 'contractUrl': None, 'contractDownloadUrl': None, 'provider': 1, 'contractId': 'yDR0JUUgygspwr6vUuO4zjE6vN3O4rki', 'contractStatus': '3000', 'staticExperStartTime': '2022-08-26 14:45:52', 'staticExperEndTime': '2022-08-26 14:46:26', 'rideStartTime': None, 'rideEndTime': None, 'driveStartTime': '2022-08-26 14:46:28', 'driveEndTime': '2022-08-26 14:46:38', 'totalDistance': 0.0, 'avgSpeed': 0.0, 'polyline': None, 'recordFiles': [{'index': 0, 'duration': 32958, 'recordUrl': 'https://kefuzhihua-1300902972.cos.ap-nanjing.myqcloud.com/uat/driver_mini/5643b73c-5d8b-4d01-819f-942095e66090.mp3'}, {'index': 2, 'duration': 8513, 'recordUrl': 'https://kefuzhihua-1300902972.cos.ap-nanjing.myqcloud.com/uat/driver_mini/6c5dcb1d-fa2f-46f4-9908-bd94fda91a17.mp3'}], 'recordFile': 'https://kefuzhihua-1300902972.cos.ap-nanjing.myqcloud.com/test-drive/record/1563054601296388098.mp3', 'recordConcatStatus': 'Success', 'recordText': '[0:0.180,0:2.450]  静态体验录音。\n[0:2.560,0:3.410]  Cash。\n[0:4.740,0:6.090]  奥迪。\n[0:8.000,0:9.670]  电子手刹。\n[0:13.420,0:18.190]  多功能方向盘，座椅通风，座椅加热都很不错。\n[0:18.500,0:23.570]  并且拥有长轴距、隐形车衣等辅助驾驶的技术。\n[0:24.500,0:26.770]  他们推崇的是优质服务。\n[0:26.860,0:30.890]  微笑接待服务，服务到店接待，到店接待。\n[0:31.520,0:32.430]  结束。\n[0:33.420,0:35.050]  试驾开始。\n[0:38.580,0:40.270]  试驾结束。\n', 'recordToTextStatus': 0, 'guideContents': [{'tag': '0', 'type': 1, 'projectName': '奥迪电动手刹'}], 'customerAppraiseLevel': '非常满意', 'customerIntentLevel': '高', 'appraiseScore': 3.88, 'appraiseConfigScore': 4.0, 'appraiseServiceScore': 3.75, 'appraiseConfigTags': None, 'textEvaluation': '奥迪不错', 'remark': None, 'lbsQualityScore': 0.0, 'recordQualityScore': None, 'serviceQualityScore': 5.0, 'productQualityScore': 5.0, 'status': 5, 'createTime': '2022-08-26 14:43:52', 'updateTime': '2022-08-26 14:52:22', 'isDel': 0}}
 [2022-08-26 17:30:45,769][test_recordList.py][line: 46][INFO] 试驾记录流程结束
+[2022-09-01 10:35:01,079][test_member_center.py][line: 22][INFO] 进入会员中心
+[2022-09-01 10:35:01,162][request.py][line: 70][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcm/scroll_bar/type
+[2022-09-01 10:35:01,162][request.py][line: 71][INFO] 请求入参：{'timestamp': 1636533786857, 'type': 1}
+[2022-09-01 10:35:01,477][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 10:35:01,477][request.py][line: 98][INFO] https://test.connect.icar.qq.com/backend/kcm/scroll_bar/type: 返回结果：{'success': True, 'msgCode': None, 'msg': None, 'data': {'type': 1, 'onOff': 1, 'content': '大家好, 这里是测试环境的公众号, 如果你是在测试环境测试, 那么可以继续', 'customerPhoneNo': '0571-28068718', 'needAuthPopup': 1, 'needBirthdayPopup': 0, 'needActivityPopup': 0}}
+[2022-09-01 10:35:01,497][request.py][line: 70][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcu/wechat-mp/jsapi-ticket
+[2022-09-01 10:35:01,497][request.py][line: 71][INFO] 请求入参：{'url': 'https:%2F%2Ftest.connect.icar.qq.com%2Fmember-center'}
+[2022-09-01 10:35:01,690][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:01,729][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/sys/list
+[2022-09-01 10:35:01,729][request.py][line: 121][INFO] 请求入参：{"": ""}
+[2022-09-01 10:35:01,729][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:01,953][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:01,981][request.py][line: 70][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcu/user/bind-info
+[2022-09-01 10:35:01,981][request.py][line: 71][INFO] 请求入参：{'openid': 'oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:02,174][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:02,214][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/coupon/list
+[2022-09-01 10:35:02,214][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ"}
+[2022-09-01 10:35:02,214][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:02,449][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:02,482][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/info
+[2022-09-01 10:35:02,482][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ"}
+[2022-09-01 10:35:02,482][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:02,664][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:02,701][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kca/call/ops/position
+[2022-09-01 10:35:02,701][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ", "code": "energy-exchange-gift-add"}
+[2022-09-01 10:35:02,701][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:02,923][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 10:35:02,923][request.py][line: 125][INFO] response.status_code：200
+[2022-09-01 10:35:02,923][request.py][line: 153][INFO] https://test.connect.icar.qq.com/backend/kca/call/ops/position: 返回结果：{'success': True, 'msgCode': None, 'msg': None, 'data': None}
+[2022-09-01 10:35:02,955][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kca/call/ops/position
+[2022-09-01 10:35:02,955][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ", "code": "energy-exchange-gift-kingcard", "imgType": "activity_banner"}
+[2022-09-01 10:35:02,955][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI3AtARvQ'}
+[2022-09-01 10:35:03,182][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 10:35:03,183][request.py][line: 125][INFO] response.status_code：200
+[2022-09-01 10:35:03,183][request.py][line: 153][INFO] https://test.connect.icar.qq.com/backend/kca/call/ops/position: 返回结果：{'success': True, 'msgCode': None, 'msg': None, 'data': None}
+[2022-09-01 10:35:03,215][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/taskSys/sign/history
+[2022-09-01 10:35:03,215][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ"}
+[2022-09-01 10:35:03,215][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI2AtARvQ'}
+[2022-09-01 10:35:03,434][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:03,434][test_member_center.py][line: 103][INFO] 会员中心流程结束
+[2022-09-01 10:35:03,434][test_myEnergy.py][line: 23][INFO] 进入会员福利-我的能量
+[2022-09-01 10:35:03,463][request.py][line: 70][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcu/wechat-mp/jsapi-ticket
+[2022-09-01 10:35:03,463][request.py][line: 71][INFO] 请求入参：{'url': 'https:%2F%2Ftest.connect.icar.qq.com%2Fenergy'}
+[2022-09-01 10:35:03,688][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:03,713][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/info
+[2022-09-01 10:35:03,713][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ"}
+[2022-09-01 10:35:03,713][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:03,932][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:03,964][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/energy/history/record
+[2022-09-01 10:35:03,964][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ"}
+[2022-09-01 10:35:03,964][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:04,179][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:04,216][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/energy/history/record
+[2022-09-01 10:35:04,216][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ", "type": 1}
+[2022-09-01 10:35:04,216][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:04,434][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:04,463][request.py][line: 120][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcmem/member/energy/history/record
+[2022-09-01 10:35:04,463][request.py][line: 121][INFO] 请求入参：{"openid": "oLVpVt7BrVhC_3xgTI-mI1AtARvQ", "type": 2}
+[2022-09-01 10:35:04,463][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'authorization': 'bearer oLVpVt7BrVhC_3xgTI-mI1AtARvQ'}
+[2022-09-01 10:35:04,666][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 10:35:04,666][test_myEnergy.py][line: 75][INFO] 会员中心-我的能量-流程结束
+[2022-09-01 10:57:12,912][test_productList.py][line: 24][INFO] 进入webmall
+[2022-09-01 10:57:12,915][test_productList.py][line: 48][INFO] webmall商品列表查询结束
+[2022-09-01 10:58:11,379][test_productList.py][line: 24][INFO] 进入webmall
+[2022-09-01 10:58:11,414][request.py][line: 120][INFO] 请求地址：https://admin-api.macrozheng.com/product/list
+[2022-09-01 10:58:11,414][request.py][line: 121][INFO] 请求入参：{"pageNum": 1, "pageSize": 5}
+[2022-09-01 10:58:11,414][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json'}
+[2022-09-01 10:58:11,615][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 10:58:11,616][request.py][line: 125][INFO] response.status_code：200
+[2022-09-01 10:58:11,616][request.py][line: 153][INFO] https://admin-api.macrozheng.com/product/list: 返回结果：{'code': 401, 'data': 'Full authentication is required to access this resource', 'message': '暂未登录或token已经过期'}
+[2022-09-01 10:58:11,617][test_productList.py][line: 48][INFO] webmall商品列表查询结束
+[2022-09-01 11:06:52,837][test_productList.py][line: 24][INFO] 进入webmall
+[2022-09-01 11:06:52,868][request.py][line: 120][INFO] 请求地址：https://admin-api.macrozheng.com/product/list
+[2022-09-01 11:06:52,868][request.py][line: 121][INFO] 请求入参：{"pageNum": 1, "pageSize": 5}
+[2022-09-01 11:06:52,868][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjIwMDEzNzMzNjMsImV4cCI6MTY2MjYwNjE3M30.EjV8qZzvMniI3bMM2WWW8tQ7qyi6Uf1_qtSRG-d95H7caQE24O20eN4aVoNJnAMojsMoB200FjD5mRnFwd7V_g'}
+[2022-09-01 11:06:53,101][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 405 
+[2022-09-01 11:06:53,102][test_productList.py][line: 48][INFO] webmall商品列表查询结束
+[2022-09-01 11:09:56,020][test_productList.py][line: 24][INFO] 进入webmall
+[2022-09-01 11:09:56,073][request.py][line: 120][INFO] 请求地址：https://admin-api.macrozheng.com/product/list
+[2022-09-01 11:09:56,073][request.py][line: 121][INFO] 请求入参：{"pageNum": 1, "pageSize": 5}
+[2022-09-01 11:09:56,073][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjIwMDEzNzMzNjMsImV4cCI6MTY2MjYwNjE3M30.EjV8qZzvMniI3bMM2WWW8tQ7qyi6Uf1_qtSRG-d95H7caQE24O20eN4aVoNJnAMojsMoB200FjD5mRnFwd7V_g'}
+[2022-09-01 11:09:56,679][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 405 
+[2022-09-01 11:09:56,697][test_productList.py][line: 48][INFO] webmall商品列表查询结束
+[2022-09-01 11:12:29,689][test_productList.py][line: 24][INFO] 进入webmall
+[2022-09-01 11:12:29,720][request.py][line: 120][INFO] 请求地址：https://admin-api.macrozheng.com/product/list
+[2022-09-01 11:12:29,720][request.py][line: 121][INFO] 请求入参：{"pageNum": 1, "pageSize": 5}
+[2022-09-01 11:12:29,720][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjE5OTkxMDA1ODksImV4cCI6MTY2MjYwMzkwMH0.i5QEHsrK_KbXZ-T-glHT9w0sDgo_OhmNRjzhBYiiU-llcKxta2l2qr7uPD9HK88WSCJ6V4bBpVXikSoyOLDhLQ'}
+[2022-09-01 11:12:29,898][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 405 
+[2022-09-01 11:12:29,900][test_productList.py][line: 48][INFO] webmall商品列表查询结束
+[2022-09-01 11:15:00,848][test_member_center.py][line: 22][INFO] 进入会员中心
+[2022-09-01 11:15:00,885][request.py][line: 70][INFO] 请求地址：https://admin-api.macrozheng.com/backend/kcm/scroll_bar/type
+[2022-09-01 11:15:00,885][request.py][line: 71][INFO] 请求入参：{'timestamp': 1636533786857, 'type': 1}
+[2022-09-01 11:15:01,097][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 11:15:01,099][request.py][line: 98][INFO] https://admin-api.macrozheng.com/backend/kcm/scroll_bar/type: 返回结果：{'code': 401, 'data': 'Full authentication is required to access this resource', 'message': '暂未登录或token已经过期'}
+[2022-09-01 11:15:01,127][request.py][line: 70][INFO] 请求地址：https://admin-api.macrozheng.com/backend/kcu/wechat-mp/jsapi-ticket
+[2022-09-01 11:15:01,127][request.py][line: 71][INFO] 请求入参：{'url': 'https:%2F%2Ftest.connect.icar.qq.com%2Fmember-center'}
+[2022-09-01 11:15:01,287][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 11:15:01,287][request.py][line: 98][INFO] https://admin-api.macrozheng.com/backend/kcu/wechat-mp/jsapi-ticket: 返回结果：{'code': 401, 'data': 'Full authentication is required to access this resource', 'message': '暂未登录或token已经过期'}
+[2022-09-01 11:15:01,288][test_member_center.py][line: 103][INFO] 会员中心流程结束
+[2022-09-01 11:15:01,288][test_productList.py][line: 24][INFO] 进入webmall
+[2022-09-01 11:15:01,316][request.py][line: 120][INFO] 请求地址：https://admin-api.macrozheng.com/product/list
+[2022-09-01 11:15:01,316][request.py][line: 121][INFO] 请求入参：{"pageNum": 1, "pageSize": 5}
+[2022-09-01 11:15:01,316][request.py][line: 122][INFO] 请求header：{'Content-Type': 'application/json', 'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbiIsImNyZWF0ZWQiOjE2NjE5OTkxMDA1ODksImV4cCI6MTY2MjYwMzkwMH0.i5QEHsrK_KbXZ-T-glHT9w0sDgo_OhmNRjzhBYiiU-llcKxta2l2qr7uPD9HK88WSCJ6V4bBpVXikSoyOLDhLQ'}
+[2022-09-01 11:15:01,471][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 405 
+[2022-09-01 11:15:01,471][test_productList.py][line: 48][INFO] webmall商品列表查询结束
+[2022-09-01 11:15:25,801][test_member_center.py][line: 22][INFO] 进入会员中心
+[2022-09-01 11:15:25,841][request.py][line: 70][INFO] 请求地址：https://admin-api.macrozheng.com/backend/kcm/scroll_bar/type
+[2022-09-01 11:15:25,841][request.py][line: 71][INFO] 请求入参：{'timestamp': 1636533786857, 'type': 1}
+[2022-09-01 11:15:26,032][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 11:15:26,033][request.py][line: 98][INFO] https://admin-api.macrozheng.com/backend/kcm/scroll_bar/type: 返回结果：{'code': 401, 'data': 'Full authentication is required to access this resource', 'message': '暂未登录或token已经过期'}
+[2022-09-01 11:15:26,062][request.py][line: 70][INFO] 请求地址：https://admin-api.macrozheng.com/backend/kcu/wechat-mp/jsapi-ticket
+[2022-09-01 11:15:26,062][request.py][line: 71][INFO] 请求入参：{'url': 'https:%2F%2Ftest.connect.icar.qq.com%2Fmember-center'}
+[2022-09-01 11:15:26,211][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 11:15:26,211][request.py][line: 98][INFO] https://admin-api.macrozheng.com/backend/kcu/wechat-mp/jsapi-ticket: 返回结果：{'code': 401, 'data': 'Full authentication is required to access this resource', 'message': '暂未登录或token已经过期'}
+[2022-09-01 11:15:26,212][test_member_center.py][line: 103][INFO] 会员中心流程结束
+[2022-09-01 11:16:08,857][test_member_center.py][line: 22][INFO] 进入会员中心
+[2022-09-01 11:16:08,904][request.py][line: 70][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcm/scroll_bar/type
+[2022-09-01 11:16:08,904][request.py][line: 71][INFO] 请求入参：{'timestamp': 1636533786857, 'type': 1}
+[2022-09-01 11:16:09,110][assertion.py][line: 31][INFO]  statusCode is 200 
+[2022-09-01 11:16:09,110][request.py][line: 98][INFO] https://test.connect.icar.qq.com/backend/kcm/scroll_bar/type: 返回结果：{'success': True, 'msgCode': None, 'msg': None, 'data': {'type': 1, 'onOff': 1, 'content': '大家好, 这里是测试环境的公众号, 如果你是在测试环境测试, 那么可以继续', 'customerPhoneNo': '0571-28068718', 'needAuthPopup': 1, 'needBirthdayPopup': 0, 'needActivityPopup': 0}}
+[2022-09-01 11:16:09,139][request.py][line: 70][INFO] 请求地址：https://test.connect.icar.qq.com/backend/kcu/wechat-mp/jsapi-ticket
+[2022-09-01 11:16:09,140][request.py][line: 71][INFO] 请求入参：{'url': 'https:%2F%2Ftest.connect.icar.qq.com%2Fmember-center'}
+[2022-09-01 11:16:09,288][assertion.py][line: 34][ERROR] statusCode error, expected_code is 200, statusCode is 401 
+[2022-09-01 11:16:09,288][test_member_center.py][line: 103][INFO] 会员中心流程结束

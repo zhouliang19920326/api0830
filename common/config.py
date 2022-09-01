@@ -18,6 +18,8 @@ class Config:
 
     TITLE_TESTDRIVE = "testdrive"
 
+    TITLE_WEBMALL = "webmall"
+
     # values:
     # [debug\release]
 
@@ -28,6 +30,8 @@ class Config:
     VALUE_WANGKA = "host_wangka"
 
     VALUE_TESTDRIVE = "testdrive_host"
+
+    VALUE_WEBMALL = "webmallhost"
 
 
     def __init__(self):
@@ -45,10 +49,13 @@ class Config:
         # self.app_host = self.get_conf(Config.TITLE_APPX, Config.VALUE_HOST)
         #
         # self.dbshop_apikey = self.get_conf(Config.TITLE_DBSHOP,Config.VALUE_APIKEY)
-        # 王卡
-        # self.app_host = self.get_conf(Config.TITLE_WANGKA, Config.VALUE_WANGKA)
+        #王卡
+        self.app_host = self.get_conf(Config.TITLE_WANGKA, Config.VALUE_WANGKA)
+
+        # webmall
+        # self.app_host = self.get_conf(Config.TITLE_WEBMALL, Config.VALUE_WEBMALL)
         #试驾
-        self.app_host = self.get_conf(Config.TITLE_TESTDRIVE, Config.VALUE_TESTDRIVE)
+        # self.app_host = self.get_conf(Config.TITLE_TESTDRIVE, Config.VALUE_TESTDRIVE)
         # self.dbshop_apikey = self.get_conf(Config.TITLE_DBSHOP, Config.VALUE_APIKEY)
 
     def get_conf(self, title, value):
@@ -83,5 +90,5 @@ class Config:
             return self.config.write(f)
 
 if __name__ == '__main__':
-    k = Config().get_conf("testdrive","testdrive_host")
+    k = Config().get_conf("webmall","testdrive_host")
     print(k)

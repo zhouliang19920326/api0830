@@ -18,7 +18,7 @@ perfdog-service-demo-v2
 +---report 报告存放
 +---testcase 测试用例合集
 |   +---testdrive1 试驾测试用例集合
-|   |   +---testdrive
+|   |   +---webmall
 |   +---wangka_test 王卡公众号测试用例集合
 |   |   +---wangka_gzh
 +---testdata  测试数据存放
