@@ -35,6 +35,7 @@ class TestProcess1(unittest.TestCase):
         response = self.memberCenter_obj.get_jsapi_ticket()
         result = response
         print(result)
+        print(result)
         # self.assertEqual(result,None,"查询测试文案返回码错误")
 
     #
