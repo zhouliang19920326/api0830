@@ -5,7 +5,7 @@
 #test_delete_product
 #test_process1
 #test_process2
-test_member_center
+#test_member_center
 #test_myEnergy
-#test_recordList
+test_recordList
 #test_productList

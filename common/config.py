@@ -50,12 +50,12 @@ class Config:
         #
         # self.dbshop_apikey = self.get_conf(Config.TITLE_DBSHOP,Config.VALUE_APIKEY)
         #王卡
-        self.app_host = self.get_conf(Config.TITLE_WANGKA, Config.VALUE_WANGKA)
+        # self.app_host = self.get_conf(Config.TITLE_WANGKA, Config.VALUE_WANGKA)
 
         # webmall
         # self.app_host = self.get_conf(Config.TITLE_WEBMALL, Config.VALUE_WEBMALL)
         #试驾
-        # self.app_host = self.get_conf(Config.TITLE_TESTDRIVE, Config.VALUE_TESTDRIVE)
+        self.app_host = self.get_conf(Config.TITLE_TESTDRIVE, Config.VALUE_TESTDRIVE)
         # self.dbshop_apikey = self.get_conf(Config.TITLE_DBSHOP, Config.VALUE_APIKEY)
 
     def get_conf(self, title, value):

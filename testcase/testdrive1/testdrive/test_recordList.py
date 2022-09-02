@@ -27,7 +27,7 @@ class TestProcess1(unittest.TestCase):
         response = self.record_obj.get_driveRecordList()
         result = response["body"]["data"]["page"]["totalCount"]
         print(result)
-        self.assertEqual(result,4,"试驾记录数据不正确")
+        self.assertEqual(result,5,"试驾记录数据不正确")
 
 
     def test_query_driveRecordDetail(self):#获取试驾记录详情,断言客户名称
